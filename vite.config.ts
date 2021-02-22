@@ -7,8 +7,11 @@ export default defineConfig({
   plugins: [react()],
   resolve: {
     alias: {
-      '@': path.resolve(__dirname, 'src'),
-      pages: path.resolve(__dirname, 'src/pages'),
+      '@': path.resolve(import.meta.dirname, 'src'),
+      pages: path.resolve(import.meta.dirname, 'src/pages'),
     },
+  },
+  css: {
+    transformer: 'postcss',
   },
 })

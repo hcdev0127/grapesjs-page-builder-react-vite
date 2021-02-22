@@ -341,7 +341,7 @@ function Builder() {
   return (
     <>
       {/* <Button color="grey" className="page_back" style={{ zIndex: zIndex }}><i className='ti ti-arrow-left' /></Button> */}
-      <Button.Group className='control page' style={{ zIndex: zIndex }}>
+      {/* <Button.Group className='control page' style={{ zIndex: zIndex }}> */}
         {/* <Dropdown onChange={(e, data) => this.changePage(e, data)} value={selPage} selection options={pageOptions} className="page_list" /> */}
         {/* <Popup
           trigger={<Button circular icon='ellipsis horizontal' className="page_setting" />}
@@ -362,7 +362,7 @@ function Builder() {
         {/* <Button.Group className='control demo' style={{ zIndex: zIndex }}> */}
         {/* <Button onClick={() => this.preview(true)} className="page_preview">Preview</Button> */}
         {/* <Button onClick={() => this.save()} color="blue" className="page_save">Save</Button> */}
-      </Button.Group>
+      {/* </Button.Group> */}
       <Icon style={{ zIndex: 5 - zIndex }} name="eye slash" size='big' className="page_preview"></Icon>
       {/* <Button.Group className='control history' style={{ zIndex: zIndex }}> */}
       {/* <Button onClick={() => this.undo()} icon="undo" className="page_undo"></Button> */}

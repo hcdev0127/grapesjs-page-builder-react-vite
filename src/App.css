@@ -165,7 +165,7 @@
   position: relative;
   width: 100%;
 
-  &::before,
+  /* &::before,
   &::after {
     content: '';
     position: absolute;
@@ -180,5 +180,5 @@
   &::after {
     right: 0;
     border-right-color: var(--border);
-  }
+  } */
 }

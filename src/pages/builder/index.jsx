@@ -12,7 +12,6 @@ import countdown from 'grapesjs-component-countdown';
 
 import 'grapesjs/dist/css/grapes.min.css';
 import './grapes.css';
-import './index.scss';
 
 import defaultPage from './default';
 
@@ -340,34 +339,6 @@ function Builder() {
 
   return (
     <>
-      {/* <Button color="grey" className="page_back" style={{ zIndex: zIndex }}><i className='ti ti-arrow-left' /></Button> */}
-      {/* <Button.Group className='control page' style={{ zIndex: zIndex }}> */}
-        {/* <Dropdown onChange={(e, data) => this.changePage(e, data)} value={selPage} selection options={pageOptions} className="page_list" /> */}
-        {/* <Popup
-          trigger={<Button circular icon='ellipsis horizontal' className="page_setting" />}
-          content={
-            <Button.Group vertical className='page_actions'>
-              <Button onClick={() => this.stateChange({ show: true })}>Delete</Button>
-              <Button onClick={() => this.duplicate()}>Duplicate</Button>
-              <Button onClick={() => this.seo()}>SEO Settings</Button>
-            </Button.Group>
-          }
-          flowing hoverable
-          position='bottom center'
-        /> */}
-        {/* <Button onClick={() => this.add()} color="blue" className="page_add"><i className='ti ti-plus' /></Button> */}
-        {/* <Button onClick={() => this.export()} color="blue" className="page_export"><i className='ti ti-download' /></Button> */}
-
-        {/* </Button.Group> */}
-        {/* <Button.Group className='control demo' style={{ zIndex: zIndex }}> */}
-        {/* <Button onClick={() => this.preview(true)} className="page_preview">Preview</Button> */}
-        {/* <Button onClick={() => this.save()} color="blue" className="page_save">Save</Button> */}
-      {/* </Button.Group> */}
-      <Icon style={{ zIndex: 5 - zIndex }} name="eye slash" size='big' className="page_preview"></Icon>
-      {/* <Button.Group className='control history' style={{ zIndex: zIndex }}> */}
-      {/* <Button onClick={() => this.undo()} icon="undo" className="page_undo"></Button> */}
-      {/* <Button icon="redo" className="page_redo"></Button> */}
-      {/* </Button.Group> */}
       <div id="gjs">
       </div>
     </>

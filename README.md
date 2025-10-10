@@ -1,42 +1,65 @@
-# Grapesjs Page Builder(React + Typescript + Vite + Grapesjs)
+# GrapesJS Page Builder (React + TypeScript + Vite)
 
-This project provides drag and drop page builder
+A modern drag-and-drop page builder built with **React**, **TypeScript**, **Vite**, and **GrapesJS**. It provides an intuitive visual editor for creating and customizing web pages without writing HTML or CSS manually.
 
-## Screen
+## Features
+
+* 🎨 Drag-and-drop page editor
+* ⚛️ Built with React and TypeScript
+* ⚡ Fast development powered by Vite
+* 🧩 Extensible GrapesJS architecture
+* 📱 Responsive editing experience
+
+## Screenshot
 
 <div align="center">
   <img
     src="template.png"
     width="100%"
-    alt="Screen"
+    alt="GrapesJS Page Builder Screenshot"
   />
 </div>
 
-## Live
+## Live Demo
 
-[Page Builder](https://hesa-pagebuilder.netlify.app/)
+Try the application here:
 
-## Development
+**https://hesa-pagebuilder.netlify.app/**
 
-### Start
+## Getting Started
 
+### Prerequisites
+
+* Node.js (v18 or later recommended)
+* npm
+
+### Installation
+
+```bash
+npm install
 ```
-npm i 
 
-```
+### Run the Development Server
 
-### Run
-
-```
-
+```bash
 npm run dev
-
 ```
 
-## Build
+The application will start in development mode. Open the local URL displayed in your terminal (typically `http://localhost:5173`).
 
-```
+## Build for Production
 
+```bash
 npm run build
-
 ```
+
+## Tech Stack
+
+* React
+* TypeScript
+* Vite
+* GrapesJS
+
+## License
+
+This project is available under the MIT License.
